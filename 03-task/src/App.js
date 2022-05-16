@@ -18,7 +18,7 @@ const App = () => {
       <Nappi handleClick={() => aseta(arvo1 + 1)} teksti="+1" />
       <Nappi handleClick={() => aseta(arvo1 - 1)} teksti="-1" />
       <Nappi handleClick={() => aseta(arvo1 + 2)} teksti="+2" />
-      <Nappi handleClick={() => aseta(arvo1 - 2)} teksti="-2" /> 
+      <Nappi handleClick={() => aseta(arvo1 - 2)} teksti="-2  " /> 
       <Nappi handleClick={() => aseta(0)} teksti="nollaa" />
       <h1>{summa}</h1>
     
